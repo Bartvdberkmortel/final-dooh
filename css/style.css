@@ -1,0 +1,77 @@
+body {
+  position: absolute;
+  width: 1080px;
+  height: 1920px;
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  background: #6300A7;
+  overflow: hidden; }
+  body h1 {
+    font-weight: 400;
+    margin: 60px 30px;
+    font-size: 90px; }
+    body h1 .span {
+      font-weight: 900 !important; }
+  body h2 {
+    font-size: 56px;
+    font-weight: 400; }
+  body .container {
+    height: 1920px;
+    width: 1080px;
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden; }
+    body .container .bier {
+      display: flex;
+      flex-direction: row;
+      justify-content: center; }
+      body .container .bier .item .tekstwolk {
+        position: relative;
+        font-size: 110px;
+        background: white;
+        color: #6300A7;
+        padding: 30px 50px;
+        border-radius: 50px; }
+        body .container .bier .item .tekstwolk:after {
+          content: '';
+          position: absolute;
+          bottom: 0;
+          left: 50%;
+          width: 0;
+          height: 0;
+          border: 65px solid transparent;
+          border-top-color: white;
+          border-bottom: 0;
+          border-left: 0;
+          margin-left: -2px;
+          margin-bottom: -64px; }
+    body .container .chatberichten {
+      position: absolute;
+      height: 80px;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      border-top: 10px solid #450074;
+      background: #ffffff;
+      overflow: hidden; }
+      body .container .chatberichten .berichten-inner {
+        padding: 0 30px; }
+        body .container .chatberichten .berichten-inner p {
+          color: #6300A7;
+          font-size: 28px;
+          display: inline-block;
+          margin-right: 40px;
+          margin-left: 40px; }
+          body .container .chatberichten .berichten-inner p::before {
+            content: '';
+            background-image: url("../img/gh-logo.png");
+            width: 37px;
+            height: 53px;
+            position: absolute;
+            background-repeat: no-repeat;
+            background-size: 80%;
+            margin-left: -50px;
+            top: 18px; }
