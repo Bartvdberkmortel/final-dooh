@@ -10,11 +10,11 @@ body {
   overflow: hidden;
   background-image: url("../img/background.png"); }
   body h1 {
-    font-weight: 400;
-    margin: 60px 30px;
-    font-size: 90px; }
-    body h1 .span {
-      font-weight: 900 !important; }
+    font-weight: 300;
+    margin: 43px 30px;
+    font-size: 120px; }
+    body h1 span {
+      font-weight: 700 !important; }
   body h2 {
     font-size: 56px;
     font-weight: 400; }
@@ -35,7 +35,7 @@ body {
       display: flex;
       flex-direction: row;
       justify-content: center;
-      height: 1605px; }
+      height: 1400px; }
       body .container .bier .item {
         color: #6300A7;
         display: flex;
@@ -44,7 +44,7 @@ body {
         align-items: center;
         position: relative; }
         body .container .bier .item img {
-          height: 70%; }
+          height: 75%; }
         body .container .bier .item .tekstwolk {
           position: relative;
           background: #6300A7;
@@ -52,9 +52,10 @@ body {
           border-radius: 50px;
           margin: 50px 30px 70px; }
           body .container .bier .item .tekstwolk p {
-            font-size: 110px;
+            font-size: 90px;
             color: white;
-            margin: 0; }
+            margin: 0;
+            font-weight: 500; }
           body .container .bier .item .tekstwolk:after {
             content: '';
             position: absolute;
@@ -74,16 +75,18 @@ body {
           justify-content: center;
           align-items: center;
           top: 42%;
-          left: 0; }
+          left: -40px; }
           body .container .bier .item .likes p {
             font-size: 50px;
-            color: white;
+            color: #6300A7;
             position: absolute;
             width: 100%;
             text-align: center;
-            margin: 0; }
+            margin: -5px 0 0;
+            font-size: 70px;
+            font-weight: 700; }
           body .container .bier .item .likes i {
-            color: #6300A7;
+            color: white;
             font-size: 220px; }
         body .container .bier .item.radler .tekstwolk {
           background: white; }
@@ -92,12 +95,28 @@ body {
           body .container .bier .item.radler .tekstwolk p {
             color: #6300A7; }
         body .container .bier .item.tripel .likes {
-          right: 0;
+          right: -40px;
           left: auto; }
           body .container .bier .item.tripel .likes p {
-            color: #6300A7; }
-          body .container .bier .item.tripel .likes i {
             color: white; }
+          body .container .bier .item.tripel .likes i {
+            color: #6300A7; }
+    body .container .cta {
+      display: flex;
+      height: 205px;
+      background: black;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row; }
+      body .container .cta .stem p {
+        margin: 0 0 15px;
+        font-size: 70px; }
+      body .container .cta .stem img {
+        width: 280px; }
+      body .container .cta .channel p {
+        font-weight: 700;
+        font-size: 140px;
+        margin-left: 50px; }
     body .container .chatberichten {
       position: absolute;
       height: 80px;
