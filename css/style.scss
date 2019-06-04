@@ -71,6 +71,9 @@ body {
                padding      : 30px 50px;
                border-radius: 50px;
                margin       : 50px 30px 70px;
+               border       : 13px solid white;
+               border-right : none;
+               border-top   : none;
 
                p {
                   font-size  : 90px;
@@ -122,7 +125,10 @@ body {
 
             &.radler {
                .tekstwolk {
-                  background: white;
+                  background  : white;
+                  border-color: $paars;
+                  border-right: 13px solid;
+                  border-left : 0;
 
                   &:after {
                      border-top-color: white;

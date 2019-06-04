@@ -50,7 +50,10 @@ body {
           background: #6300A7;
           padding: 30px 50px;
           border-radius: 50px;
-          margin: 50px 30px 70px; }
+          margin: 50px 30px 70px;
+          border: 13px solid white;
+          border-right: none;
+          border-top: none; }
           body .container .bier .item .tekstwolk p {
             font-size: 90px;
             color: white;
@@ -89,7 +92,10 @@ body {
             color: white;
             font-size: 220px; }
         body .container .bier .item.radler .tekstwolk {
-          background: white; }
+          background: white;
+          border-color: #6300A7;
+          border-right: 13px solid;
+          border-left: 0; }
           body .container .bier .item.radler .tekstwolk:after {
             border-top-color: white; }
           body .container .bier .item.radler .tekstwolk p {
