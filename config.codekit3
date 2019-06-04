@@ -9,6 +9,16 @@
 	],
 "creatorBuild": "26330",
 "files": {
+	"\/css\/style.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/style-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/css\/style.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -21,6 +31,50 @@
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
+		},
+	"\/img\/background.png": {
+		"ft": 32768,
+		"iS": 836658,
+		"oA": 0,
+		"oAP": "\/img\/background.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/Greenhouse-logo.png": {
+		"ft": 32768,
+		"iS": 11545,
+		"oA": 0,
+		"oAP": "\/img\/Greenhouse-logo.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/radler.png": {
+		"ft": 32768,
+		"iS": 103781,
+		"oA": 0,
+		"oAP": "\/img\/radler.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/tripel.png": {
+		"ft": 32768,
+		"iS": 96302,
+		"oA": 0,
+		"oAP": "\/img\/tripel.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
 		},
 	"\/index.html": {
 		"cB": 0,
