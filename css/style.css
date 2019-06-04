@@ -8,11 +8,12 @@ body {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   overflow: hidden;
-  background-image: url("../img/background.png"); }
+  background-image: url("../img/background.png");
+  background-size: 115%; }
   body h1 {
     font-weight: 300;
-    margin: 43px 30px;
-    font-size: 120px; }
+    margin: 43px 30px 43px 0;
+    font-size: 80px; }
     body h1 span {
       font-weight: 700 !important; }
   body h2 {
@@ -30,12 +31,13 @@ body {
       justify-content: space-evenly;
       align-items: center; }
       body .container .intro img {
+        margin: 0 30px;
         height: 140px; }
     body .container .bier {
       display: flex;
       flex-direction: row;
       justify-content: center;
-      height: 1400px; }
+      height: 1352px; }
       body .container .bier .item {
         color: #6300A7;
         display: flex;
@@ -113,16 +115,21 @@ body {
       background: black;
       justify-content: center;
       align-items: center;
-      flex-direction: row; }
-      body .container .cta .stem p {
-        margin: 0 0 15px;
-        font-size: 70px; }
-      body .container .cta .stem img {
-        width: 280px; }
-      body .container .cta .channel p {
-        font-weight: 700;
-        font-size: 140px;
-        margin-left: 50px; }
+      flex-direction: column; }
+      body .container .cta p {
+        font-weight: 300;
+        margin: 0;
+        font-size: 60px; }
+        body .container .cta p span {
+          font-weight: 700; }
+      body .container .cta .channel {
+        display: inline-flex;
+        align-items: center; }
+        body .container .cta .channel p {
+          margin-right: 20px; }
+        body .container .cta .channel img {
+          height: 60px;
+          margin-top: 10px; }
     body .container .chatberichten {
       position: absolute;
       height: 80px;
