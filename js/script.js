@@ -1,6 +1,6 @@
 window.onload = function() {
   // Scale animatie op de achtergrond
-  TweenMax.to("body",3,{'background-size':'100%'});
+  TweenMax.to("body",4,{'background-size':'100%'});
 
   // Biertjes binnensliden
   var timeline = new TimelineMax();
@@ -11,13 +11,17 @@ window.onload = function() {
   var item1 = document.getElementById("item-1")
   var tl = new TimelineLite({ delay: 2 });
 
-  tl.to(item1, 0.25, { rotation: 20 }).to(item1, 0.25, { rotation: 0 })
+  tl.to(item1, 0.25, { rotation: 20 })
+    .to(item1, 0.25, { rotation: 0, repeat:1, yoyo:true, repeatDelay:4}, 0.25)
+    .to(item1, 0.25, { rotation:0 })
 
   // Item 2 Draaien (Proost)
   var item2 = document.getElementById("item-2")
   var tl = new TimelineLite({ delay: 2 });
 
-  tl.to(item2, 0.25, { rotation: -25 }).to(item2, 0.25, { rotation: 0 })
+  tl.to(item2, 0.25, { rotation: -20 })
+    .to(item2, 0.25, { rotation: 0, repeat:1, yoyo:true, repeatDelay:4}, 0.25)
+    .to(item2, 0.25, { rotation:0 } )
 
   // Berichtenslider
   $('.berichten-inner').slick({
